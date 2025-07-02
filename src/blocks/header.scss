@@ -1,0 +1,6 @@
+@use './mixins.scss';
+
+div {
+    @include mixins.block;
+    display: mixins.$display;
+}
